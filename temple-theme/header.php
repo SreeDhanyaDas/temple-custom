@@ -17,36 +17,10 @@
   </head>
 
   <body <?php body_class(); ?>>
-  
-  <?php
-    global $temple_messages;
-    
-    if (is_wp_error( $temple_messages )){
-      echo '<div class="toast-container">';
-      foreach ( $temple_messages->get_error_messages() as $message ) {
-    ?>
-        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
-          <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <strong class="me-auto">Success..!!</strong>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              <?php echo $message; ?>
-            </div>
-          </div>
-        </div>
-        <?php
-            }
-          echo "</div>";
-        }
-      ?>
-
 
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark  p-3">
     <div class="container">
-      <a class="logo" href="<?php echo esc_url(home_url()); ?>"><img alt="<?php wp_title(); ?>" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/logo.png'; ?>"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

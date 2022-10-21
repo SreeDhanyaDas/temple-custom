@@ -41,8 +41,7 @@
 <!-- menus -->
 
 <?php get_template_part( "template-parts/temple", "homepageone" ); ?>
- 
-<?php get_template_part( "template-parts/temple", "list" ); ?>
+
      
 
     </div>
