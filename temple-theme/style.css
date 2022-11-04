@@ -7,11 +7,18 @@ Version: 1.0
 
 body{
   font-family: "Raleway", sans-serif;
+  background: antiquewhite;
 }
 a:hover, a:focus {
   color:#466bb8;
 }
 
+nav.navbar.navbar-secondary.navbar-expand-lg.navbar-dark.p-3 {
+  background: #991403;
+}
+.secondary-nav-content {
+  /* display: flex; */
+}
 .title-bar {
     background: #f7f7f7;
     /* height: 200px; */
@@ -129,8 +136,20 @@ a:hover, a:focus {
 
 /* Slider */
 
+p.text-center.slider-content {
+  background: #41110196;
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 700;
+}
+.section-six-card {
+  width: 70%;
+  margin-left: 2rem;
+  
+}
+
 /* footer */
-footer.page-footer.font-small.indigo { background: #DB4242; color: #fff; padding-top: 40px; }
+footer.page-footer.font-small.indigo { background: #991403; color: #fff; padding-top: 40px; }
 .search-area-footer { display: flex; }
 
 a.logo { text-decoration: none; color:#ffffff;}

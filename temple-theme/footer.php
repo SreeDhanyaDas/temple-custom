@@ -71,9 +71,7 @@
       </footer>
       <div class="secondary-footer"> 
         <span>COPYRIGHT TEMPLE 2022</span>
-        <span>
-        <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/logo.png'; ?>" width="350px"  alt="...">
-        </span>
+        
         <span>
         <!-- <a href="https://facebook.com/temple"><img alt="facebook" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/footer_fb.png'; ?>"></a>
         <a href="https://twitter.com/temple"><img alt="twitter" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/footer_twitter.png'; ?>"></a> -->

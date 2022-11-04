@@ -19,6 +19,20 @@
   <body <?php body_class(); ?>>
 
   <!--Navbar-->
+  <nav class="navbar navbar-secondary navbar-expand-lg navbar-dark  p-3">
+  <div class="container">
+    <div class="secondary-nav-content">
+      <!-- <div class="left-nav-content"> -->
+        <span style="color:#FCB132; padding-right:0.5rem">999-555-000-11</span>
+        <span style="color:#fff; padding-right:30rem">temple@domaiun.com</span>
+      <!-- </div> -->
+      <!-- <div class="right-nav-content"> -->
+        <span style="color:#fff; padding-right:1rem">EVENTS</span>
+        <span style="color:#fff">POOJA BOOKING</span>
+      <!-- </div> -->
+    </div>
+  </div>
+  </nav>
   <nav class="navbar navbar-expand-lg navbar-dark  p-3">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

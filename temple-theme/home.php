@@ -10,17 +10,18 @@
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/Slider-1.png'; ?>" width="100%" height="100%"  alt="...">
-        <div class="carousel-caption-text">
-          <!-- <p class="text-left">Temple of Sri, Irattakulangra Bagavathy.</p> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/banner2.jpg'; ?>" width="100%" height="100%"  alt="...">
+          <div class="carousel-caption-text">
+          <p class="text-center slider-content">Temple of Sri, Irattakulangra Bagavathy</p>
         </div>
       </div>
+      
       <div class="carousel-item">
-        <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/Slider-1.png'; ?>" width="100%" height="100%" alt="...">
+        <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/banner3.jpg'; ?>" width="100%" height="100%" alt="...">
         <div class="carousel-caption-text">
-          <!-- <p class="text-left">Lorem Ipsum is simply dummy.</p> -->
+        <p class="text-center slider-content">Temple of Sri, Irattakulangra Bagavathy</p>
         </div>
       </div>
       
@@ -40,7 +41,7 @@
   </div>
 <!-- menus -->
 
-<?php get_template_part( "template-parts/temple", "homepageone" ); ?>
+<?php get_template_part( "template-parts/temple", "homepage" ); ?>
 
      
 
