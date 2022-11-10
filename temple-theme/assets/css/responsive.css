@@ -105,9 +105,7 @@
 
  /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-    .footer-contents li {
-        list-style: none !important;
-    }
+    
 }
 
 /* On smaller screens, decrease text size */
