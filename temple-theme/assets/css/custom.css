@@ -15,6 +15,11 @@ h2.section-header-one, h2.section-header-two {
     color: #FCB132;
     font-weight: 700;
     display: flex;
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 62px;
 }
 .section-one-textOne, .section-one-textTwo{
     display: flex;
@@ -57,8 +62,8 @@ h2.section-two-heading {
 
     font-family: 'Jomhuria';
     font-style: normal;
-    font-weight: 900;
-    font-size: 42px;
+    font-weight: 400;
+    font-size: 82px;
     line-height: 62px;
     color: #991403;
 }
@@ -88,14 +93,25 @@ p.section-two-body-content {
 }
 h3.section-header-three {
     color: #fff;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 62px;
 }
 .section-three-auidio audio {
-    width: 700px;
+    width: 600px;
 }
 a.btn.view-all-sec-three {
     background: #FCB132;
     border-radius: 50px;
+    width: 160px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #991403;
 }
 /* section four */
 .section-four {
@@ -116,8 +132,8 @@ a.btn.view-all-sec-three {
     padding-bottom: 2rem;
     padding-top: 5rem;
     line-height: 32px;
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 400;
+    font-size: 82px;
     color: #3E0303;
     font-family: 'Jomhuria';
 }
@@ -246,8 +262,8 @@ span.card-icon {
 .section-six-header{
     font-family: 'Jomhuria';
     font-style: normal;
-    font-weight: 900;
-    font-size: 42px;
+    font-weight: 400;
+    font-size: 82px;
     line-height: 58px;
     color: #411101;
     display: flex;
