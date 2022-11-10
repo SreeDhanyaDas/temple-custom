@@ -70,6 +70,7 @@
         
       </footer>
       <div class="secondary-footer"> 
+        <div class="container">
         <span>COPYRIGHT TEMPLE 2022</span>
         
         <span>
@@ -78,6 +79,7 @@
           
         </span>
 
+        </div>
       </div>
     
     <?php wp_footer(); ?>

@@ -15,37 +15,36 @@
 </div>
 <!-- section two -->
 <div class="section-two" style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
-    <div class="section-content-imageleft">
-      <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" width="150px"  alt="...">
-    </div>
-    <div class="section-two-header">
-      <h2 class="section-two-heading">Welcome to Sri, Irattakulangra Bagavathy</h2>
-      <p class="section-two-body-content">
-        Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit, sed do eiusmod tempor 
-        incididunt u t labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation 
-        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit 
-        esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, 
-        sunt in culpa qui officia deserunt mollit anim 
-        id est laborum.  cupidatat non proident, sunt in 
-        culpa qui officia deserunt mollit anim id est laborum.  
-        cupidatat non proident, sunt in culpa qui officia deserunt 
-        mollit anim id est laborum. 
-
-        <span class="section-two-readmore">Read More <span>
-      </p>
-      </div>  
-      <div class="section-content-imageright">
-        <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image2.png'; ?>" width="350px"  alt="...">
+    <!-- <div class="section-two-header"> -->
+      <img class="section-content-imageleft" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
+      <div class="section-two-content-area">
+        <h2 class="section-two-heading">Welcome to Sri, Irattakulangra Bagavathy</h2>
+        <p class="section-two-body-content">
+          Lorem ipsum dolor sit amet, consectetur 
+          adipiscing elit, sed do eiusmod tempor 
+          incididunt u t labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit 
+          esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, 
+          sunt in culpa qui officia deserunt mollit anim 
+          id est laborum.  cupidatat non proident, sunt in 
+          culpa qui officia deserunt mollit anim id est laborum.  
+          cupidatat non proident, sunt in culpa qui officia deserunt 
+          mollit anim id est laborum.
+        </p>
+        <a class="section-two-readmore" href="#">Read More </a>
       </div>
+          <img class="section-content-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image2.png'; ?>"  alt="...">
+      <!-- </div>   -->
+     
     
 </div>
 <!-- section three -->
-<div class="container-fluid section-three">
-  
+<div class="section-three">
+<div class="container section-three-area">
+
     <div class="section-three-content">
       <h3 class="section-header-three"> Download Bhajans</h3> 
     </div>
@@ -59,27 +58,37 @@
     <div class="section-three-btn">
     <a class="btn view-all-sec-three" href="#"> View all </a>  
     </div>
+
+
+</div>
 </div>
 <!-- section Four -->
 <div class="section-four" style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
+  <img class="section-four-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
+        
   <h2 class="header-four">Our Pooja </h2>
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="festivals-tab" data-bs-toggle="tab" data-bs-target="#festivals" type="button" role="tab" aria-controls="profile" aria-selected="false">Festival</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="geeta-tab" data-bs-toggle="tab" data-bs-target="#geeta" type="button" role="tab" aria-controls="contact" aria-selected="false">Geeta Religion</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="temple-tab" data-bs-toggle="tab" data-bs-target="#temple" type="button" role="tab" aria-controls="contact" aria-selected="false">Temple</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="vedas-tab" data-bs-toggle="tab" data-bs-target="#vedas" type="button" role="tab" aria-controls="contact" aria-selected="false">Vedas</button>
-  </li>
-</ul>
+  <div class="tab-section">
+      <ul class="nav nav-tabs-four" id="myTab" role="tablist">
+        <div class="nav-tabs-bottom-four">
+          <li class="nav-item-four" role="presentation">
+            <button class="nav-link-four active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item-four" role="presentation">
+            <button class="nav-link-four" id="festivals-tab" data-bs-toggle="tab" data-bs-target="#festivals" type="button" role="tab" aria-controls="profile" aria-selected="false">Festival</button>
+          </li>
+          <li class="nav-item-four" role="presentation">
+            <button class="nav-link-four" id="geeta-tab" data-bs-toggle="tab" data-bs-target="#geeta" type="button" role="tab" aria-controls="contact" aria-selected="false">Geeta Religion</button>
+          </li>
+          <li class="nav-item-four" role="presentation">
+            <button class="nav-link-four" id="temple-tab" data-bs-toggle="tab" data-bs-target="#temple" type="button" role="tab" aria-controls="contact" aria-selected="false">Temple</button>
+          </li>
+          <li class="nav-item-four" role="presentation">
+            <button class="nav-link-four" id="vedas-tab" data-bs-toggle="tab" data-bs-target="#vedas" type="button" role="tab" aria-controls="contact" aria-selected="false">Vedas</button>
+          </li>
+        </div>
+    </ul>
+    <hr>
+  </div>
 <div class="tab-content" id="myTabContent">
   <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
       <div class="row row-tab">
@@ -294,19 +303,24 @@
 <div class="section-five">
   <div class="video-container">
     <div class="row-hero">
-      <video class="video" poster="https://imelgrat.me/demo/images/moth.jpg" autoplay playsinline muted loop>
+      <img class="video-image-ssection-five video-section-five" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/video-image.png'; ?>"  height="710px" >
+      <!-- <video class="video" poster="https://imelgrat.me/demo/images/moth.jpg" autoplay playsinline muted loop>
         <source src="https://imelgrat.me/demo/videos/moth.webm" type="video/webm">
-      </video>
-      <div class="video-quote">
-        <p><a class="section-five-text" href="#">VIEW ALL VIDEOS/ PHOTOS</a></p>
-      </div>
-    </div>
-  </div>      
-<div>
+      </video> -->
+        <div class="video-quote">
+          <a class="section-five-text" href="#">VIEW ALL VIDEOS/ PHOTOS</a>
+        </div> 
+    </div> 
+  </div>
+</div>
 
-<div class="container-fluid section-six"  style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
-  <h3 class="section-six-header">Temple News Feed</h3>
-  <div class="row row-six">
+<!-- section six -->
+<div class="section-six"  style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
+  <img class="section-six-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
+     
+  <div class="container">  
+    <h3 class="section-six-header">Temple News Feed</h3>
+    <div class="row row-six">
     <div class="col-4 section-six-img-div">
       <div class="image-view" style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/six-img1.png'; ?>')">
       
@@ -341,8 +355,8 @@
       </div>
     </div>
   </div>
-</div>
-<div  style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
-  <a class="section-six-text" href="#">VIEW ALL VIDEOS/ PHOTOS</a>
+  <div class="section-six-text">
+    <a class="section-six-text-a" href="#">VIEW ALL VIDEOS/ PHOTOS</a>
+  </div>
 </div>
 

@@ -12,16 +12,22 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <div class="carousel-header-content">
+            <p class="carousel-item-text">Temple of Sri, Irattakulangra Bagavathy</p>
+          </div>
           <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/banner2.jpg'; ?>" width="100%" height="100%"  alt="...">
           <div class="carousel-caption-text">
-          <p class="text-center slider-content">Temple of Sri, Irattakulangra Bagavathy</p>
+          <bottom class="text-center slider-content">EXPLORE OUR TEMPLE</bottom>
         </div>
       </div>
       
       <div class="carousel-item">
+        <div class="carousel-header-content">
+          <p class="carousel-item-text">Temple of Sri, Irattakulangra Bagavathy</p>
+        </div>
         <img src="<?php echo get_stylesheet_directory_uri() .'/assets/images/banner3.jpg'; ?>" width="100%" height="100%" alt="...">
         <div class="carousel-caption-text">
-        <p class="text-center slider-content">Temple of Sri, Irattakulangra Bagavathy</p>
+        <bottom class="text-center slider-content">EXPLORE OUR TEMPLE</bottom>
         </div>
       </div>
       
