@@ -227,7 +227,26 @@ a.btn.view-all-sec-three {
 
 .video-quote {
 	z-index: 10;
-	padding: .5rem 1rem;
+	padding-bottom:5rem;
+    position: absolute;
+}
+.video-play-btn {
+    background-color: #FCB132;
+    position: absolute;
+    color: #fff;
+    width: 10%;
+    height: 13%;
+    width: 6%;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+img.video-image-s-play-btn.play-btn-section-five {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 32%;
 }
 .section-five-text{
     color: #fff;

@@ -306,6 +306,10 @@
       <!-- <video class="video" poster="https://imelgrat.me/demo/images/moth.jpg" autoplay playsinline muted loop>
         <source src="https://imelgrat.me/demo/videos/moth.webm" type="video/webm">
       </video> -->
+      <div class="video-play-btn">
+        <img class="video-image-s-play-btn play-btn-section-five" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/video-play-button.png'; ?>"  height="710px" >
+        
+      </div>
         <div class="video-quote">
           <a class="section-five-text" href="#">VIEW ALL VIDEOS/ PHOTOS</a>
         </div> 

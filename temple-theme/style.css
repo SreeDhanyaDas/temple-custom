@@ -311,6 +311,9 @@ footer.page-footer.font-small.indigo { background: #991403; color: #fff; padding
   font-size: 40px;
   line-height: 25px;
 }
+.page-footer ul {
+  padding-left: 0;
+}
 a.logo { text-decoration: none; color:#ffffff;}
 a.logo img { max-width: 50%;}
 a.logo a:hover, a.logo a:focus { background-color: transparent;text-decoration: none; color:#ffffff;}
