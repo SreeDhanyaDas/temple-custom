@@ -68,7 +68,7 @@
       <h2 class="header-four">Our Pooja </h2>
       <div class="tab-section">
           <ul class="nav nav-tabs-four" id="myTab" role="tablist">
-            <div class="nav-tabs-bottom-four">
+           
               <li class="nav-item-four" role="presentation">
                 <button class="nav-link-four active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
               </li>
@@ -84,7 +84,7 @@
               <li class="nav-item-four" role="presentation">
                 <button class="nav-link-four" id="vedas-tab" data-bs-toggle="tab" data-bs-target="#vedas" type="button" role="tab" aria-controls="contact" aria-selected="false">Vedas</button>
               </li>
-            </div>
+            
         </ul>
         <hr>
       </div>

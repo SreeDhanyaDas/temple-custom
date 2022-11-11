@@ -191,7 +191,7 @@ a.btn.view-all-sec-three {
 
 #all-tab.active, #festivals-tab.active, #geeta-tab.active, #temple-tab.active, #vedas-tab.active{
     /* border-bottom:2px solid #991403bf; */
-    color: #991403bf !important;
+    color: rgba(153, 20, 3, 1) !important;
 }
 
 /* ---------------------video------------- */

@@ -62,6 +62,9 @@
         min-width: 350px;
         height: 45px;
     }
+    .page-footer p, .page-footer ul {
+        font-size: 12px;
+    }
     .video-quote {
         padding-bottom: 3rem;
     }
@@ -76,16 +79,21 @@
     p.text-center.slider-content {
         font-size: 20px;
     }
-    
-    .section-four .card {
-        display: flex;
-        width: 200px;
-        flex-wrap: nowrap;
-        margin-bottom: 1rem !important;
+    span.card-icon{
+        font-size: 12px;
+        padding: 0 0.1rem 0.1rem 0.1rem;
+        margin: 0;
+    }
+    .card-text-tab{
+        padding: 0;
+        margin-top: 2rem;
+    }
+    .card-body-tab{
+        font-size: 12px;
     }
     .section-four .row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .carousel-item-text,
     h2.section-header-one,
@@ -101,7 +109,7 @@
         padding: 0;
     }
     .tab-section {
-        font-size: 10px;
+        font-size: 12px;
     }
     .section-six-card{
         width: 55%;
