@@ -8,7 +8,6 @@
 .section-one-area {
     display: flex;
     font-family: 'Jomhuria';
-    height: 220px;
     font-size: 14px;
     word-break: 50%;
     justify-content: space-between;
@@ -37,8 +36,9 @@ h2.section-header-one, h2.section-header-two {
     display: flex;
     justify-content: space-between;
     position: relative;
+    z-index: 4;
 }
-.section-content-imageright{
+.section-content-imageright {
     position: absolute;
     width: 40%;
     height: 100%;
@@ -59,7 +59,7 @@ h2.section-header-one, h2.section-header-two {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 2.5rem;
+    padding-top: 5rem;
     padding-bottom: 2.5rem;
 }
 a.section-two-readmore {
@@ -83,16 +83,16 @@ h2.section-two-heading {
 }
 p.section-two-body-content {
     padding-top: 1rem;
-    top: -50px;
+    /* top: -50px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    width: 635px;
+    /* width: 635px; */
     height: 289px;
-    left: 0px;
-    top: -50px;
+    /* left: 0px; */
+    /* top: -50px; */
 }
 /* section three */
 .section-three {
@@ -102,8 +102,11 @@ p.section-two-body-content {
 }
 .section-three-area {
     display: flex;
-    justify-content: space-between;
     font-family: 'Jomhuria';
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    justify-content: space-between;
     align-items: center;
 }
 h3.section-header-three {
@@ -131,7 +134,8 @@ a.btn.view-all-sec-three {
 }
 /* section four */
 .section-four {
-    padding: 2rem 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     position: relative;
 }
 
@@ -268,6 +272,7 @@ img.video-image-ssection-five {
 ul#myTab {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 div#myTabContent {
     padding-top: 2rem;
@@ -284,7 +289,6 @@ span.card-icon {
     color: #ffff;
 }
 .section-six {
-    padding-bottom: 8rem;
     position: relative;
 }
 .card-text-tab-six {
@@ -318,21 +322,22 @@ span.card-icon {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 3.5rem;
    
 }
 .section-six-text-a{
     text-decoration: none;
-    border-bottom:1px solid #411101;
+    border-bottom:1px solid rgba(65, 17, 1, 1);
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    color: #411101;
+    color: rgba(65, 17, 1, 1);
 }
 .section-six-text-a:hover{
     opacity: 0.6;
-    color: #411101;
+    color: rgba(65, 17, 1, 1);
 }
 
 .card.section-six-card {
