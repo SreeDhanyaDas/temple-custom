@@ -1,15 +1,17 @@
 /* home page */
 /* section one */
-.section-one { 
+.section-one{
     background: #411101;
-    display: flex;
-    padding-top: 20px;
-    font-family: Jomhuria;
-    height: 220px;
-    padding-bottom: 20px;
-    font-size: 14px;
-    justify-content: space-around;
+    position: relative;
 
+}
+.section-one-area {
+    display: flex;
+    font-family: 'Jomhuria';
+    height: 220px;
+    font-size: 14px;
+    word-break: 50%;
+    justify-content: space-between;
 }
 h2.section-header-one, h2.section-header-two {
     color: #FCB132;
@@ -34,19 +36,31 @@ h2.section-header-one, h2.section-header-two {
 .section-two {
     display: flex;
     justify-content: space-between;
-    height: 600px;
+    position: relative;
 }
+.section-content-imageright{
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+}
+
 .section-content-imageleft {
     width: 116px;
     height: 216px;
-    left: 11px;
-    top: 1078px;
+    left: -4px;
+    top: -9px;
+    position: absolute;
 }
+
 .section-two-content-area {
     display: flex;
+    width: 50%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 a.section-two-readmore {
     text-transform: uppercase;
@@ -83,21 +97,23 @@ p.section-two-body-content {
 /* section three */
 .section-three {
     background: #991403;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 .section-three-area {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-family: 'Jomhuria';
     align-items: center;
-    height: 200px;
 }
 h3.section-header-three {
     color: #fff;
     font-weight: 400;
     font-size: 62px;
+    margin: 0;
 }
 .section-three-auidio audio {
-    width: 600px;
+    width: 100%;
 }
 a.btn.view-all-sec-three {
     background: #FCB132;
@@ -116,15 +132,20 @@ a.btn.view-all-sec-three {
 /* section four */
 .section-four {
     padding: 2rem 5rem;
+    position: relative;
 }
-.section-four-imageright{
-    width: 116px;
-    height: 216px;
-    position: absolute;
-    left: 1195px;
-    top: 1898px;
-    z-index: 3;
-}
+
+    .section-four-imageright {
+        width: 116px;
+        height: 216px;
+        position: absolute;
+        right: 0;
+        top: -9px;
+        /* overflow: hidden; */
+        /* left: 1195px; */
+        /* top: 1898px; */
+        z-index: 3;
+    }
 
 .header-four{
     display: flex;
@@ -245,6 +266,7 @@ span.card-icon {
 }
 .section-six {
     padding-bottom: 8rem;
+    position: relative;
 }
 .card-text-tab-six {
     padding: 1rem;
@@ -255,8 +277,8 @@ span.card-icon {
     width: 116px;
     height: 216px;
     position: absolute;
-    left: 1195px;
-    top: 3058px;
+    right: 0;
+    top: -9px;
     z-index: 3;
 }
 .section-six-header{
@@ -304,9 +326,6 @@ span.card-icon {
 }
 .section-six-img-div{
     position: relative;
-}
-.section-four {
-    background: #f0f0f1d1;
 }
 p.section-five-text,  p.section-six-text{
     display: flex;

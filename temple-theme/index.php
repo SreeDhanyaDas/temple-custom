@@ -1,9 +1,6 @@
 <?php
     get_header();
 ?>
-    <div class="title-bar news-title">
-        <h1>News</h1>
-    </div>
     <div class="container">
 
         <div class="row">

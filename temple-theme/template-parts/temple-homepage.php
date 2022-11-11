@@ -1,6 +1,7 @@
 
 <!-- section one -->
-<div class="container-fluid section-one">
+<div class="section-one">
+<div class="container section-one-area">
   <div class="section-one-textOne">
     <h2 class="section-header-one">Amma Narayana</h2>
   </div>
@@ -10,15 +11,15 @@
   <div class="section-one-textTwo">
     <h2 class="section-header-two">Devi Narayana</h2>
   </div>
-  
+</div>
   
 </div>
 <!-- section two -->
-<div class="section-two" style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
-    <!-- <div class="section-two-header"> -->
+<div class="section-two" >
       <img class="section-content-imageleft" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
+      <div class="container">
       <div class="section-two-content-area">
-        <h2 class="section-two-heading">Welcome to Sri, Irattakulangra Bagavathy</h2>
+          <h2 class="section-two-heading">Welcome to Sri, Irattakulangra Bagavathy</h2>
         <p class="section-two-body-content">
           Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor 
@@ -34,12 +35,10 @@
           cupidatat non proident, sunt in culpa qui officia deserunt 
           mollit anim id est laborum.
         </p>
-        <a class="section-two-readmore" href="#">Read More </a>
+          <a class="section-two-readmore" href="#">Read More </a>
+        </div>
       </div>
-          <img class="section-content-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image2.png'; ?>"  alt="...">
-      <!-- </div>   -->
-     
-    
+          <img class="section-content-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image2.png'; ?>"  alt="..."> 
 </div>
 <!-- section three -->
 <div class="section-three">
@@ -63,7 +62,7 @@
 </div>
 </div>
 <!-- section Four -->
-<div class="section-four" style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
+<div class="section-four" >
   <img class="section-four-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
         
   <h2 class="header-four">Our Pooja </h2>
@@ -315,7 +314,7 @@
 </div>
 
 <!-- section six -->
-<div class="section-six"  style="background-image: url('<?php echo get_stylesheet_directory_uri() .'/assets/images/ohm_bg.jpg'; ?>')">
+<div class="section-six"  >
   <img class="section-six-imageright" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/section-two-image.png'; ?>" alt="...">
      
   <div class="container">  

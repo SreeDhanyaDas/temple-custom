@@ -7,30 +7,106 @@ Version: 1.0
 
 body{
   font-family: "Jomhuria", sans-serif;
-  background: antiquewhite;
+  background-image: url('./assets/images/ohm_bg.jpg');
+  background-size: 6px;
 }
 a:hover, a:focus {
   color:#466bb8;
 }
-
+/* Nav bar */
+.primary-nav-bar{
+  background: #FCB132;
+}
 nav.navbar.navbar-secondary.navbar-expand-lg.navbar-dark.p-3 {
   background: #991403;
 }
+nav.navbar.navbar-expand-lg.navbar-dark.primary-nav-bar{
+  /* display: flex; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.85px;
+  text-transform: uppercase;
+}
+
+.primary-nav-bar .header-nav a{
+  color: #FFFFFF !important;
+
+}
+.primary-nav-bar .header-nav a:hover, .navbar-secondary .header-nav a:hover{
+  opacity: 0.8;
+}
+.primary-nav-bar .header-nav a:active, .navbar-secondary .header-nav a:active{
+  color: #991403;
+}
+
+.primary-navbar-collapse {
+  position: relative;
+  display: flex ;
+  justify-content: space-around ;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+/* Nav secondary */
+.navbar-secondary {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.85px;
+
+}
+.navbar-secondary .header-nav a{
+  right: 0;
+  color: #FFFFFF !important;
+  text-transform: uppercase;
+
+}
+.secondary-nav-content {
+    display: flex;
+    width: 100%;
+}
+ul#menu-header-secondary-menu {
+  position: relative;
+  right: 0
+}
+li.menu-item.menu-item-type-custom.contact-item {
+  padding-right: 2rem;
+}
+li.menu-item.menu-item-type-custom.contact-item.contact-item-phone {
+  color: #FCB132;
+  font-weight: 700;
+  font-size: 15px;
+}
+li.menu-item.menu-item-type-custom.contact-item.contact-item-email{
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+}
+
 
 .title-bar {
-    background: #f7f7f7;
-    /* height: 200px; */
-    padding: 70px;
+    background: #991403;
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    color: #fff;
 }
 
 .title-bar h1 {
-    font-size: 32px;
-    font-weight: 700;
+  font-weight: 400;
+  font-size: 82px;
+  font-family: 'Jomhuria';
+  font-style: normal;
  }
  /* Nav bar */
 
@@ -57,10 +133,7 @@ nav.navbar.navbar-secondary.navbar-expand-lg.navbar-dark.p-3 {
  /* .navbar-nav{
    padding-right: 40px;
  } */
- .navbar{
-   background: #FCB132;
- }
- /* Nav bar */
+ 
 
  /* Slider */
  .carousel-caption-text {
@@ -76,31 +149,23 @@ nav.navbar.navbar-secondary.navbar-expand-lg.navbar-dark.p-3 {
   line-height: 21px;
   padding-top: 1.25rem;
   padding-bottom: 3rem;
-  /* color: #fff; */
-  /* font-size: 50px; */
-  /* width: 70%; */
 }
 .carousel-item-text{
-    /* position: absolute; */
-    /* width: 805.52px; */
-    /* height: 214px; */
-    /* left: 439.74px; */
-    /* left: 400px; */
-    top: 17px;
     font-family: 'Jomhuria';
     font-style: normal;
     font-weight: 400;
-    font-size: 62px;
+    font-size: 82px;
     line-height: 72px;
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 
 }
-.carousel-header-content{
+.carousel-header-content {
   position: absolute;
   width: 100%;
-  background-color: #4111018f;
+  height: 10%;
+  background-color: rgba(65, 17, 1, 0.64);
   display: flex;
   justify-content: center;
 }
@@ -127,8 +192,43 @@ bottom.text-center.slider-content {
   z-index: 1030;
 }
 
+/* 
+.main-section .container p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+} */
 
-
+.main-section .container h1, .main-section .container h2, .main-section .container h3, .main-section .container h4, .main-section .container h5, .main-section .container h6 {
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+  }
+  .main-section .container h1{
+    font-size: 82px;
+  }
+  .main-section .container h2{
+    font-size: 76px;
+  }
+  .main-section .container h3{
+    font-size: 72px;
+  }
+  .main-section .container h4{
+    font-size: 68px;
+  }
+  .main-section .container h5{
+    font-size: 62px;
+  }
+  .main-section .container h6{
+    font-size: 52px;
+  }
+  
+  .main-section a{
+    text-decoration: none;
+    color: #991403;
+}
 
 .slideshow-container img {
     width: 100%;
