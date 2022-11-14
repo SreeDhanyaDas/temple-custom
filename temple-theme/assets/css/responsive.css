@@ -230,7 +230,12 @@
         height: 40px;
         border-radius: 40px;
     }
-    
+    .primary-nav-bar .header-nav a {
+        padding-left: 0;
+    }
+    .primary-nav-bar ul#menu-main-menu {
+        padding-top: 1rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
