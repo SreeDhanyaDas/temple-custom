@@ -1,10 +1,10 @@
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media(max-width: 300px) {
     .text {font-size: 12px}
     body{font-size: 12px}
-    
-    
-    
+    .carousel-item-text{
+        font-size: 40px;
+    }
     
 }
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -18,6 +18,7 @@
         align-items: center;
         flex-direction: column;
     }
+    
     nav.navbar.navbar-secondary.navbar-expand-lg.navbar-dark.p-3,
     li.menu-item.menu-item-type-custom.contact-item.contact-item-phone,
     li.menu-item.menu-item-type-custom.contact-item.contact-item-email {
@@ -41,11 +42,6 @@
     }
     .section-content-imageleft img{
         width: 80px;
-    }
-    .image-view {
-        height: 50px;
-        width: 80%;
-        position: absolute;
     }
     .section-one-Image img{
         width: 120px;
@@ -80,9 +76,29 @@
         font-size: 20px;
     }
     span.card-icon{
-        font-size: 12px;
-        padding: 0 0.1rem 0.1rem 0.1rem;
         margin: 0;
+    }
+    img.video-image-s-play-btn.play-btn-section-five {
+        width: 95%;
+    }
+
+    .secondary-footer-content{
+        font-size: 12px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .tab-section button{
+        padding: 0.5rem 0.5rem;
+    }
+    .secondary-footer span {
+        margin: 0.5rem;
+    }
+    .section-four .card {
+        margin: 1rem;
+    }
+    .tab-section{
+        font-size: 14px !important;
     }
     .card-text-tab{
         padding: 0;
@@ -95,32 +111,34 @@
         display: flex;
         flex-direction: row;
     }
-    .carousel-item-text,
     h2.section-header-one,
     h2.section-header-two,
     .section-two-heading,
     .section-header-three,
     .header-four,
     .section-six-header{
-        font-size: 42px !important;
+        font-size: 52px;
         
     }
+    .carousel-item-text{
+        font-size: 50px;
+    }
     .section-six-header{
-        padding: 0;
+        padding-top: 3rem;
     }
     .tab-section {
         font-size: 12px;
     }
-    .section-six-card{
-        width: 55%;
-        bottom: -160px;
+    .section-six-card {
+        width: 80%;
+        bottom: 36px;
     }
     .card-text-tab-six{
-        font-size: 10px;
+        font-size: 14px;
 
     }
     .header-four{
-        padding: 0;
+        padding-top: 2rem;
     }
     h2.section-two-heading{
         line-height: 32px;
@@ -136,12 +154,7 @@
     .section-two-content-area{
         width: 100%;
     }
-    .video-play-btn{
-        width: 10%;
-    }
-    .carousel-header-content{
-        height: 25%;
-    }
+
     footer.page-footer.font-small.indigo{
         height: 100%;
     }
@@ -206,28 +219,106 @@
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-
+@media (min-width: 300px) {
     
+    
+    .carousel-item-text{
+        font-size: 42px;
+    }
+    button.btn.video-image-s-play-btn.play-btn-section-five {
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+    }
     
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    
-
+    .primary-nav-bar .header-nav a {
+        padding-left: 0;
+    }
+    .primary-nav-bar ul#menu-main-menu {
+        padding-top: 1rem;
+    }
+    .carousel-item-text{
+        font-size: 55px;
+    }
+    .section-three-auidio audio {
+        min-width: 320px;
+    }
+    h2.section-header-one, h2.section-header-two{
+        font-size: 62px;
+        line-height: 42px;
+    }
+    h3.section-header-three {
+        font-size: 52px;
+        line-height: 35px;
+    }
+    a.btn.view-all-sec-three {
+        font-size: 14px;
+        width: 120px;
+    }
+    .section-one-Image img{
+        width: 150px;
+        height: 150px;
+    }
+    a.btn.view-all-sec-three {
+        width: 90px;
+        font-size: 12px;
+    }
+    .section-three-btn, .section-three-content, .section-three-auidio {
+        margin: 0.5rem;
+    }
+    .section-four .card {
+        margin: 1rem;
+    }
+    button.btn.video-image-s-play-btn.play-btn-section-five {
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+    }
 }
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+    .carousel-item-text{
+        font-size: 62px;
+    }
     .section-three-auidio audio {
-        min-width: 580px;
+        min-width: 420px;
+    }
+    .section-one-Image img{
+        width: 250px;
+        height: 250px;
+    }
+    h3.section-header-three {
+        font-size: 62px;
+        line-height: 40px;
+    }
+    button.btn.video-image-s-play-btn.play-btn-section-five {
+        width: 80px;
+        height: 80px;
+        border-radius: 80px;
     }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    
+    .carousel-item-text{
+        font-size: 82px;
+    }
+    .section-three-auidio audio {
+        min-width: 580px;
+    }
+    a.btn.view-all-sec-three{
+        width: 120px;
+    }
+    .primary-navbar-collapse {
+        position: relative;
+        display: flex ;
+        justify-content: space-around ;
+      }
  }
 
  /* X-Large devices (large desktops, 1200px and up) */
@@ -237,5 +328,9 @@
 
  /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-
+    .primary-navbar-collapse {
+        position: relative;
+        display: flex ;
+        justify-content: space-around ;
+      }
 }

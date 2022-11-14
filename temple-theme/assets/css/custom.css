@@ -14,6 +14,7 @@
 }
 h2.section-header-one, h2.section-header-two {
     color: #FCB132;
+    margin: 1rem;
     font-weight: 700;
     display: flex;
     font-family: 'Jomhuria';
@@ -83,16 +84,11 @@ h2.section-two-heading {
 }
 p.section-two-body-content {
     padding-top: 1rem;
-    /* top: -50px; */
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    /* width: 635px; */
-    height: 289px;
-    /* left: 0px; */
-    /* top: -50px; */
 }
 /* section three */
 .section-three {
@@ -100,13 +96,16 @@ p.section-two-body-content {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
+.section-three-btn, .section-three-content,.section-three-auidio {
+    margin: 1rem;
+}
 .section-three-area {
     display: flex;
     font-family: 'Jomhuria';
     font-size: 14px;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 h3.section-header-three {
@@ -114,6 +113,7 @@ h3.section-header-three {
     font-weight: 400;
     font-size: 62px;
     margin: 0;
+    line-height: 40px;
 }
 .section-three-auidio audio {
     width: 100%;
@@ -139,7 +139,7 @@ a.btn.view-all-sec-three {
     position: relative;
 }
 
-    .section-four-imageright {
+.section-four-imageright {
         width: 116px;
         height: 216px;
         position: absolute;
@@ -149,7 +149,24 @@ a.btn.view-all-sec-three {
         /* left: 1195px; */
         /* top: 1898px; */
         z-index: 3;
-    }
+}
+
+.card-text-tab .cardTitle {
+    
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+.card-text-tab .cardContent {
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+}
 
 .header-four{
     display: flex;
@@ -162,11 +179,7 @@ a.btn.view-all-sec-three {
     color: #3E0303;
     font-family: 'Jomhuria';
 }
-.tab-section {
-    display: flex;
-    justify-content: center;
-    
-}
+
 .tab-section .nav-tabs-four .nav-link-four {
     color: #000;
 }
@@ -200,7 +213,6 @@ a.btn.view-all-sec-three {
 	height: 20rem;
 	width: 100%;
 	position: relative;
-    background: #41110152;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
@@ -234,30 +246,31 @@ a.btn.view-all-sec-three {
 	padding-bottom:5rem;
     position: absolute;
 }
-.video-play-btn {
+button.btn.video-image-s-play-btn.play-btn-section-five {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
     background-color: #FCB132;
+   
+}
+
+.video-play-btn {
     position: absolute;
     color: #fff;
-    width: 10%;
-    height: 13%;
-    width: 6%;
     top: 50%;
-    left: 50%;
-    border-radius: 50%;
 }
 img.video-image-s-play-btn.play-btn-section-five {
-    width: 40%;
-    height: 40%;
-    position: absolute;
-    top: 30%;
-    left: 32%;
+    width: 56%;
+    height: auto;
+    position: relative;
+    /* margin: 1rem; */
 }
 .section-five-text{
     color: #fff;
     
 }
-.section-five {
-    background: #411101;
+.video-container {
+    background:rgba(65, 17, 1, 0.58);
 }
 .section-five-text:hover{
     color: #fff;
@@ -317,7 +330,6 @@ span.card-icon {
     padding-bottom: 3rem;
 }
 .section-six-text {
-    padding: 2rem;
     margin-top: 2rem;
     display: flex;
     align-items: center;
@@ -338,6 +350,12 @@ span.card-icon {
 .section-six-text-a:hover{
     opacity: 0.6;
     color: rgba(65, 17, 1, 1);
+}
+.section-six-img-div {
+    position: relative;
+    padding-bottom: 80px;
+    background: transparent;
+    border: none;
 }
 
 .card.section-six-card {
@@ -362,20 +380,11 @@ p.section-five-text,  p.section-six-text{
     color: #ffff;
 }
 
-.secondary-footer {
-    background: #411101;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding: 1rem 5rem;
-}
 .secondary-footer span {
     
     color: #fcb132;
 }
-.row.row-tab {
-    padding-bottom: 1rem;
-}
+
 .row.row-six {
     padding-bottom: 1.5rem;
 }

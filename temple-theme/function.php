@@ -73,7 +73,7 @@ function temple_widgets_init() {
  */
 if ( ! function_exists( 'temple_register_nav_menu' ) ) {
  
-    function temple_register_nav_menu(){
+    function temple_register_nav_menu(){ 
         register_nav_menus( array(
             'header_menu' => __( 'Header Menu', 'text_domain' ),
             'header_second_menu' => __( 'Header Second Menu', 'text_domain' ),

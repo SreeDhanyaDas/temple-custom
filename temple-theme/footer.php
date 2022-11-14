@@ -71,13 +71,16 @@
       </footer>
       <div class="secondary-footer"> 
         <div class="container">
-        <span>COPYRIGHT TEMPLE 2022</span>
-        
-        <span>
-        <!-- <a href="https://facebook.com/temple"><img alt="facebook" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/footer_fb.png'; ?>"></a>
-        <a href="https://twitter.com/temple"><img alt="twitter" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/footer_twitter.png'; ?>"></a> -->
-          
-        </span>
+          <div class="secondary-footer-content"> 
+            <span>COPYRIGHT © TEMPLE 2022</span>
+            
+            <span class="footer-icons">
+            <a href="https://facebook.com/temple" class="facebook-icon"><img alt="facebook" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/facebook-f.svg'; ?>" width= "20px", height= "15px;"></a>
+            <a href="https://instagram.com/temple" class="instagram-icon"><img alt="instagram" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/instagram.svg'; ?>" width= "20px", height= "20px;"></a>
+            <a href="https://google.com/temple" class="google-icon"><img alt="google" src="<?php echo get_stylesheet_directory_uri() .'/assets/images/google-plus-g.svg'; ?>" width= "20px", height= "20px;"></a>
+              
+            </span>
+          </div>
 
         </div>
       </div>

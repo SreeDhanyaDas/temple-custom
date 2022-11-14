@@ -47,8 +47,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.primary-nav-bar{
 
 .primary-navbar-collapse {
   position: relative;
-  display: flex ;
-  justify-content: space-around ;
 }
 .navbar-collapse {
   flex-grow: 0 !important;
@@ -164,7 +162,7 @@ li.menu-item.menu-item-type-custom.contact-item.contact-item-email{
 .carousel-header-content {
   position: absolute;
   width: 100%;
-  height: 10%;
+  height: auto;
   background-color: rgba(65, 17, 1, 0.64);
   display: flex;
   justify-content: center;
@@ -201,7 +199,7 @@ bottom.text-center.slider-content {
   line-height: 28px;
 } */
 
-.main-section .container h1, .main-section .container h2, .main-section .container h3, .main-section .container h4, .main-section .container h5, .main-section .container h6 {
+/* .main-section .container h1, .main-section .container h2, .main-section .container h3, .main-section .container h4, .main-section .container h5, .main-section .container h6 {
     font-family: 'Jomhuria';
     font-style: normal;
     font-weight: 400;
@@ -223,7 +221,7 @@ bottom.text-center.slider-content {
   }
   .main-section .container h6{
     font-size: 52px;
-  }
+  } */
   
   .main-section a{
     text-decoration: none;
@@ -281,7 +279,7 @@ p.text-center.slider-content {
 .section-six-card {
     width: 85%;
     position: absolute;
-    bottom: -40px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 3;
@@ -292,10 +290,32 @@ p.text-center.slider-content {
 }
 
 /* footer */
-footer.page-footer.font-small.indigo { background: #991403; color: #fff; padding-top: 40px; height: 323px;}
+footer.page-footer.font-small.indigo { background: #991403; color: #fff; padding-top: 40px; height: auto;}
 .search-area-footer { display: flex; }
 .footer-contents li {
   list-style: none !important;
+}
+.footer-icons img {
+  /* margin: 0.1rem; */
+  position: relative;
+  bottom: 2px;
+}
+.secondary-footer {
+  background: #411101;
+  color: #fff;
+  padding: 1rem 5rem;
+}
+a.facebook-icon, a.instagram-icon, a.google-icon{
+  background-color: rgba(252, 177, 50, 1);
+  width: 50%;
+  height: 50%;
+  padding: 0.5rem;
+  margin: 0.2rem;
+  border-radius: 50px;
+}
+.secondary-footer-content {
+  display: flex;
+  justify-content: space-between;
 }
 .page-footer p {
   font-family: 'Montserrat';
