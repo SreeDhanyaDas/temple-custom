@@ -141,7 +141,8 @@
         padding-top: 2rem;
     }
     h2.section-two-heading{
-        line-height: 32px;
+       	line-height: 42px;
+    	font-size: 70px;
     }
     .carousel-caption-text{
         font-size: 12px;
@@ -223,7 +224,7 @@
     
     
     .carousel-item-text{
-        font-size: 42px;
+        font-size: 36px;
     }
     button.btn.video-image-s-play-btn.play-btn-section-five {
         width: 40px;
@@ -306,6 +307,9 @@
         height: 80px;
         border-radius: 80px;
     }
+	.primary-nav-bar .header-nav a {
+    padding-left: 2rem;
+	}
  }
 
 /* Large devices (desktops, 992px and up) */

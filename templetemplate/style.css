@@ -1,11 +1,11 @@
 /*
-Theme Name: customtheme
+Theme Name: templetemplate
 Author: Abacies
 Author URI: https://abacies.com/
 Version: 1.0
  */
 
-body{
+ body{
   font-family: "Jomhuria", sans-serif;
   background-image: url('./assets/images/ohm_bg.jpg');
   background-size: 6px;
@@ -288,6 +288,10 @@ p.text-center.slider-content {
 .section-six, .section-four, .section-two{
   background-size: 6px !important;
 }
+.content-area {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
 
 /* footer */
 footer.page-footer.font-small.indigo { background: #991403; color: #fff; padding-top: 40px; height: auto;}
@@ -343,3 +347,4 @@ a.logo a:hover, a.logo a:focus { background-color: transparent;text-decoration: 
 #menu ul li a { color:#ffffff; text-decoration: none;}
 #menu ul li a:hover, #menu ul li a:focus {text-decoration: none;}
 #menu .menu-header-menu {margin-bottom: 0;}
+
