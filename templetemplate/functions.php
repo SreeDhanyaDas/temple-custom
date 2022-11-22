@@ -231,3 +231,74 @@ function custom_post_type_events() {
   
 }  
 add_action( 'init', 'custom_post_type_events', 0 );
+
+
+// add_shortcode('event_view','listing_events');
+add_shortcode('event_view','listing_events');
+// add_action('init','listing_events');
+function listing_events(){
+    echo "hello";
+    $events_args = array (
+    'post_type' => "events",
+    'posts_per_page' => -1,
+    'orderby'=> 'date',
+    'order' => 'DESC',
+    'post_status' => array('publish', 'draft')  
+    );
+    $events_posts_data = get_posts($events_args);
+    $i = 1;
+    // print_r($post);
+    ?>
+        <table class='events-listing'>
+            <tr>
+                <th>#</th>
+                <th>Events</th>
+                <th>Days</th>
+            </tr>
+            <?php 
+            foreach($events_posts_data as $post){ ?>
+            <tr>
+                <td><?=$i?></td>
+                <td><?=$post->post_title?></td>
+                <td><?=$post->post_modified?></td>
+            </tr>
+        <?php
+        $i++;
+    }
+    ?>
+        </table>
+<?php
+}
+
+add_shortcode('poojas_view','listing_poojas');
+function listing_poojas(){
+    
+    $poojas_args = array (
+    'post_type' => "poojas",
+    'posts_per_page' => -1,
+    'orderby'=> 'date',
+    'order' => 'DESC',
+    'post_status' => array('publish', 'draft')  
+    );
+    $poojas_posts_data = get_posts($poojas_args);
+
+    $i = 1;
+    // print_r($post);
+    ?>
+        <table class='events-listing'>
+            <tr>
+                <th>#</th>
+                <th>Poojas</th>
+            </tr>
+            <?php 
+            foreach($poojas_posts_data as $post){ ?>
+            <tr>
+                <td><?=$i?></td>
+                <td><?=$post->post_title?></td>
+            </tr>
+        <?php
+        $i++;
+    } ?>
+        </table>
+        <?php
+}
