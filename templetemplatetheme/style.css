@@ -5,13 +5,13 @@ Author URI: https://abacies.com/
 Version: 1.0
  */
 
-body{
+ body{
   font-family: "Jomhuria", sans-serif;
   background-image: url('./assets/images/ohm_bg.jpg');
   background-size: 6px;
 }
 .main-section{
-	padding-bottom:40px;
+  padding-bottom: 40px;
 }
 a:hover, a:focus {
   color:#466bb8;
@@ -94,13 +94,13 @@ li.menu-item.menu-item-type-custom.contact-item.contact-item-email{
 
 
 .title-bar {
-    background: #991403;
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #fff;
+  /* background: #991403; */
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #991403;
 }
 
 .title-bar h1 {
@@ -350,3 +350,86 @@ a.logo a:hover, a.logo a:focus { background-color: transparent;text-decoration: 
 #menu ul li a { color:#ffffff; text-decoration: none;}
 #menu ul li a:hover, #menu ul li a:focus {text-decoration: none;}
 #menu .menu-header-menu {margin-bottom: 0;}
+
+
+
+
+.accordion-button-poojas, .accordion-button-events{
+    color: #ffffff !important;
+    background-color: #fcb132 !important;
+    box-shadow: inset 0 -1px 0 #fcb132ab;
+     font-family: 'Montserrat';
+      border-color: #fcb13285 !important; 
+    font-style: normal;
+    font-weight: 600;
+}
+.accordion-button-poojas:focus, .accordion-button-events:focus{
+    /* border-color: #fcb13285; */
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #ff98006e !important;
+}
+/* contact form */
+.center {
+  margin: auto;
+  width: 35%;
+}
+div#wpcf7-f117-o1 {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: 0.2rem;
+  /* margin: 1rem -15px 0; */
+  /* border: solid #f7f7f9; */
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  /* position: relative; */
+  /* left: 0; */
+  /* right: 0; */
+  /* align-items: center; */
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required, textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ffc619;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  width: 100%;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input.wpcf7-form-control.has-spinner.wpcf7-submit:hover{
+  opacity: 0.9;
+  background-color: #ebb104;
+}
+.wpcf7 label{
+  font-family: 'Montserrat';
+  font-style: normal;
+  width: 100%;
+  font-weight: 700;
+  font-size: 15px;
+  color: #991403;
+  text-transform: uppercase;
+
+}

@@ -25,7 +25,7 @@
     <div class="secondary-nav-content">
         <ul id="menu-header-secondary-menu" class="contact-item-ul header-nav navbar-nav ms-auto">
           <li class="menu-item menu-item-type-custom contact-item contact-item-phone">999-555-000-11</li>
-          <li class="menu-item menu-item-type-custom contact-item contact-item-email">temple@domaiun.com</li>
+          <li class="menu-item menu-item-type-custom contact-item contact-item-email">temple@domain.com</li>
         </ul>
         <?php if ( has_nav_menu( 'header_second_menu' ) ) : ?>
           <?php
