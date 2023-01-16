@@ -1,0 +1,413 @@
+/* home page */
+/* section one */
+.section-one{
+    background: #411101;
+    position: relative;
+
+}
+.section-one-area {
+    display: flex;
+    font-family: 'Jomhuria';
+    font-size: 14px;
+    word-break: 50%;
+    justify-content: space-between;
+}
+h2.section-header-one, h2.section-header-two {
+    color: #FCB132;
+    margin: 1rem;
+    font-weight: 700;
+    display: flex;
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 62px;
+}
+.section-one-textOne, .section-one-textTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-one-Image {
+    display: flex;
+    align-items: center;
+}
+/* section two */
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 4;
+}
+.section-content-imageright {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 0;
+}
+
+.section-content-imageleft {
+    width: 116px;
+    height: 216px;
+    left: -4px;
+    top: -9px;
+    position: absolute;
+}
+
+.section-two-content-area {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+}
+a.section-two-readmore {
+    text-transform: uppercase;
+    color: #991403;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #991403;
+}
+a.section-two-readmore:hover{
+    opacity: 0.7;
+}
+h2.section-two-heading {
+
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 62px;
+    color: #991403;
+}
+p.section-two-body-content {
+    padding-top: 1rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* section three */
+.section-three {
+    background: #991403;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.section-three-btn, .section-three-content,.section-three-auidio {
+    margin: 1rem;
+}
+.section-three-area {
+    display: flex;
+    font-family: 'Jomhuria';
+    font-size: 14px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+h3.section-header-three {
+    color: #fff;
+    font-weight: 400;
+    font-size: 62px;
+    margin: 0;
+    line-height: 40px;
+}
+.section-three-auidio audio {
+    width: 100%;
+}
+a.btn.view-all-sec-three {
+    background: #FCB132;
+    border-radius: 50px;
+    width: 160px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #991403;
+}
+/* section four */
+.section-four {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.section-four-imageright {
+        width: 116px;
+        height: 216px;
+        position: absolute;
+        right: 0;
+        top: -9px;
+        /* overflow: hidden; */
+        /* left: 1195px; */
+        /* top: 1898px; */
+        z-index: 3;
+}
+
+.card-text-tab .cardTitle {
+    
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+.card-text-tab .cardContent {
+   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.header-four{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    padding-top: 5rem;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 82px;
+    color: #3E0303;
+    font-family: 'Jomhuria';
+}
+
+.tab-section .nav-tabs-four .nav-link-four {
+    color: #000;
+}
+
+.tab-section .nav-tabs-four {
+    width: 50%;
+}
+.tab-section button {
+    border: none;
+    background: none;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+}
+#all-tab, #festivals-tab, #geeta-tab, #temple-tab{
+    border-right:2px solid #000;
+}
+.nav-tabs-bottom-four {
+    border-bottom: 2px solid #000;
+    display: flex;
+    padding-bottom: 0.8rem;
+}
+
+#all-tab.active, #festivals-tab.active, #geeta-tab.active, #temple-tab.active, #vedas-tab.active{
+    /* border-bottom:2px solid #991403bf; */
+    color: rgba(153, 20, 3, 1) !important;
+}
+
+/* ---------------------video------------- */
+
+.row-hero {
+	height: 20rem;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+	@media(min-width: 480px) {
+		.row-hero {
+			height: 25rem;
+		}
+	}
+	@media(min-width: 720px) {
+		.row-hero {
+			height: 35rem;
+		}
+	}
+
+.video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: auto;
+	width: auto;
+	z-index: -1;
+	transform: translateX(-50%) translateY(-50%);
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.video-quote {
+	z-index: 10;
+	padding-bottom:5rem;
+    position: absolute;
+}
+button.btn.video-image-s-play-btn.play-btn-section-five {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    background-color: #FCB132;
+   
+}
+
+.video-play-btn {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+}
+img.video-image-s-play-btn.play-btn-section-five {
+    width: 56%;
+    height: auto;
+    position: relative;
+    /* margin: 1rem; */
+}
+.section-five-text{
+    color: #fff;
+    
+}
+.video-container {
+    background:rgba(65, 17, 1, 0.58);
+}
+.section-five-text:hover{
+    color: #fff;
+    opacity: 0.7;
+}
+img.video-image-ssection-five {
+    opacity: 0.7;
+}
+
+/* ---------------------video------------- */
+
+ul#myTab {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div#myTabContent {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.card-text-tab {
+    padding-top: 5rem;
+}
+span.card-icon {
+    background: #FCB132;
+    padding: 0.1rem 0.8rem 0.5rem 0.8rem;
+    margin: 0.5rem;
+    font-size: 20px;
+    color: #ffff;
+}
+.section-six {
+    position: relative;
+}
+.card-text-tab-six {
+    padding: 1rem;
+    background: #FCB132;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.12);
+}
+.section-six-imageright{
+    width: 116px;
+    height: 216px;
+    position: absolute;
+    right: 0;
+    top: -9px;
+    z-index: 3;
+}
+.section-six-header{
+    font-family: 'Jomhuria';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 58px;
+    color: #411101;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.section-six-text {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 3.5rem;
+   
+}
+.section-six-text-a{
+    text-decoration: none;
+    border-bottom:1px solid rgba(65, 17, 1, 1);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(65, 17, 1, 1);
+}
+.section-six-text-a:hover{
+    opacity: 0.6;
+    color: rgba(65, 17, 1, 1);
+}
+.section-six-img-div {
+    position: relative;
+    padding-bottom: 80px;
+    background: transparent;
+    border: none;
+}
+
+.card.section-six-card {
+    width: 70%;
+}
+
+.image-view {
+    height: 200px;
+    width: 100%;
+}
+.section-six-img-div{
+    position: relative;
+}
+p.section-five-text,  p.section-six-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.card-body-tab {
+    padding: 1rem;
+    background: #9914034a;
+    color: #ffff;
+}
+
+.secondary-footer span {
+    
+    color: #fcb132;
+}
+
+.row.row-six {
+    padding-bottom: 1.5rem;
+}
+
+.heading-section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    /* padding-top: 5rem; */
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+h5.card-title {
+    padding: 1rem;
+}
+.card-text p, .card-image {
+    padding-left: 1rem;
+}
+
+.option-cols.search-form {
+    display: contents;
+}
+/* .search-form { display: inline-block; } */
+
